@@ -1,0 +1,11 @@
+body{
+    background-color: #e6acac;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+} /* Con esto borramos los formatos que vienen por defecto en HTML */
