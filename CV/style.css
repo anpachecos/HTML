@@ -1,6 +1,52 @@
-body{
-    background-color: #e6acac;
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    
 
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d1c2df;
+
+
+}
+section#sobremi h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.detalle-experiencia{
+    border: 5px solid #8f6fad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;  
+}
+nav ul li{
+    margin: 0 10px;
+    padding: 10px 20px;
 }
 
 *{
